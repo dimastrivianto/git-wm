@@ -1,0 +1,20 @@
+git --version
+    untuk melihat versi git
+
+git config --global user.name <yourUserName>
+    untuk set username di git
+
+git config --global user.email <yourEmail>
+    untuk set email di git
+
+git init 
+    inisialisasi terhadap folder project, agar di track oleh git
+
+git status
+    untuk melihat status folder (ada 3 status)
+        untracked
+        staging : pakai git add <file name> untuk memasukkan file ke dalam  staging area dari untracked, untuk mengembalikan atau mengeluarkan dari staging area dengan cara git rm --cached <fileName> maka file akan kembali ke untracked
+        commit
+
+git add .
+    untuk memindahkan semua file yang ada dalam satu folder
